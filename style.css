@@ -1,0 +1,107 @@
+.sd-head {
+  display: flex;
+  justify-content: center;
+}
+.sd-heading {
+  font-size: 50px;
+}
+.sd-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 5%;
+}
+.sd-card-root {
+  border: 3px solid #a2d3ee;
+  border-radius: 10px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  min-height: 300px;
+  max-height: 400px;
+  padding: 20px;
+  margin: 3%;
+  max-width: 500px;
+  min-width: 400px;
+  box-shadow: 0px 5px 10px #888888;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.sd-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sd-card-content h1 {
+  font-size: 35px;
+}
+.sd-card-content-more {
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+.sd-card-content-more p {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Content Creation CSS */
+
+.cc-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 5%;
+}
+.cc-card-root {
+  border-radius: 50px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  height: 30%;
+  min-height: 300px;
+  max-height: 500px;
+  padding: 20px;
+  margin: 3%;
+  max-width: 400px;
+  min-width: 200px;
+  box-shadow: 0px 5px 10px #888888;
+}
+
+.cc-card-img {
+  border-radius: 50%;
+  border: 5px solid #a2d3ee;
+  width: 150px;
+  height: 150px;
+}
+
+.cc-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cc-card-content-more p {
+  margin-top: 0;
+  font-size: 20px;
+}
+.cc-card-button {
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  align-self: center;
+  background: #3184ad;
+}
